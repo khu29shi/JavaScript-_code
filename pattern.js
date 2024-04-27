@@ -1,4 +1,4 @@
-let row = 10;
+let row = 8;
 for(let r=1;r<=row;r++)
 {
     let pattern = "";
