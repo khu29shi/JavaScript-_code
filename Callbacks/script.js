@@ -8,8 +8,8 @@ function customMapper(arr, fn){
 }
 
 let nums = [1, 2, 3, 4, 5]
-let myFn = customMapper(nums, function square(v, i){
+let myFun = customMapper(nums, function square(v, i){
     return v*v
 })
 
-console.log(myFn);
+console.log(myFun);
