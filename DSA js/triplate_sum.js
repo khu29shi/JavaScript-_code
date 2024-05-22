@@ -1,7 +1,7 @@
 let arr = [2,5,6,7,4]
 let target = 13;
 
-let threeSum = function(nums,target){
+let threeSum = function(arr,target){
     for(let i=0; i<arr.length; i++){
         for(let j=i+1; j<arr.length; j++){
             for(let k=j+1; k<arr.length; k++){
