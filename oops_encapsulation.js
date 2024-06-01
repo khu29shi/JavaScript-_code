@@ -11,6 +11,8 @@ class person {
     }
 }
 
+// person.id = 26;
 let person1 = new person('Akshay',26);
 person1.add_Address('Delhi');
 person1.getDetails();
+// console.log(person);
